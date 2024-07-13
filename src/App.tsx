@@ -47,6 +47,14 @@ const App: React.FC = () => {
           github="https://github.com/MarcosRcr/Reconocimiento-de-numeros"
           tecnologies={["HTML", "CSS", "JavaScript", "Python"]}
         />
+        <ProjectCard
+          title="Calorie Tracker"
+          description="It is a calorie tracker app that calculates the calories from the food you eat and the calories you burn with exercise, showing you a balance."
+          image="/916_1x_shots_so.png"
+          link="https://calory-tracker-64341.web.app/"
+          github="https://github.com/MarcosRcr/calories"
+          tecnologies={["HTML", "CSS", "TypeScript", "React", "TailwindCSS"]}
+        />
       </Section>
       <Spacer title="About" />
       <Section tailwind="flex-wrap">
